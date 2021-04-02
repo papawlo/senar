@@ -1,0 +1,72 @@
+
+$screen-sm:								769px !default;
+
+// Fonts
+$lato: 									'lato';
+$lato-italic: 							'lato-italic';
+$lato-bold: 							'lato-bold';
+$lato-bold-italic: 						'lato-bold-italic';
+$roboto-slab: 							'roboto-slab';
+$roboto-slab-bold: 						'roboto-slab-bold';
+
+// Colors
+$color-1: 								#b5db8b;
+$color-2: 								#9ed069;
+$color-3: 								#95cc5a;
+$color-4: 								#699a33;
+$color-5: 								#57852d;
+$color-6: 								#335717;
+$color-7: 								#234102;
+$color-8: 								#f0f0f0;
+$color-9: 								#b7b7b7;
+$color-10: 								#787878;
+$color-11: 								#306968;
+$color-12:								#ffffff;
+$color-13:								#d7d7d7;
+$color-14:								#8eaa70;
+$color-15:								#d1e4be;
+$color-16:								#8c2020;
+
+// Text
+$text-color:							$color-1;
+$link-color:							$color-2 !default;
+$link-hover-color:						$color-4 !default;
+$font-size-base:						10px !default;
+
+// Navbar
+$grid-float-breakpoint:					1025px;
+$navbar-height:							100px !default;
+$navbar-default-border:					$color-4;
+$navbar-default-bg:						$color-4 !default;
+$navbar-default-color:					$color-12 !default;
+$navbar-default-link-color:				$color-12 !default;
+$navbar-default-link-hover-color:		$color-12 !default;
+$navbar-default-link-hover-bg:			transparent !default;
+$navbar-default-link-active-color:		$color-12 !default;
+$navbar-default-link-active-bg:			transparent !default;
+$navbar-default-toggle-hover-bg:		transparent !default;
+$navbar-default-toggle-icon-bar-bg:		transparent !default;
+$navbar-default-toggle-border-color:	transparent !default;
+
+// Nav
+$nav-link-padding:						10px 0 !default;
+
+// Form
+$input-color-placeholder:				$color-9 !default;
+$padding-large-vertical:				14px !default;
+
+// Panel
+$panel-body-padding:					60px 90px !default;
+$panel-heading-padding:					20px 30px !default;
+$panel-border-radius:					0 !default;
+$panel-inner-border:					0 !default;
+$panel-default-text:					$color-12 !default;
+$panel-default-heading-bg:				$color-4 !default;
+
+// Breadcrumbs
+$breadcrumb-padding-vertical:			8px !default;
+$breadcrumb-padding-horizontal:			0 !default;
+$breadcrumb-bg:							transparent !default;
+$breadcrumb-color:						$color-12 !default;
+$breadcrumb-active-color:				$color-12 !default;
+$breadcrumb-separator:					">" !default;

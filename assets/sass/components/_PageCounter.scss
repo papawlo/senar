@@ -1,0 +1,14 @@
+.PageCounter{
+	color: $color-9;
+	font-family: $lato-bold;
+	font-size: 2em;
+	margin: 0 10px;
+	vertical-align: middle;
+	&-currentPage{
+		border-radius: 5px;
+		box-shadow: inset 2px 2px 0px 0px #a9a9a9;
+		background: $color-9;
+		color: $color-12;
+		padding: 0 30px;
+	}
+}

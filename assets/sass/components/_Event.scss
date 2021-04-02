@@ -1,0 +1,50 @@
+.Event {
+	background-color: $color-12;
+	padding-bottom: 30px;
+	min-height: 420px;
+
+	.Event-next, .Event-prev {
+		position: absolute;
+		cursor: pointer;
+
+		&:before, &:after {
+			font-size: 2em;
+		}
+	}
+
+	.Event-list {
+		width: 75%;
+		margin: 0 auto;
+		font-size: 1.6em;
+		list-style: none !important;
+	}
+
+	.Event-item {
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid $color-4;
+
+		time {
+			&:after {
+				color: $color-4;
+				margin-left: 10px;
+			}
+		}
+	}
+
+	.Event-listTitle {
+		margin: 0;
+		font-size: 1em;
+		color: $color-10;
+		font-family: $roboto-slab;
+	}
+
+	.Event-next {
+		left: 40px;
+		top: 15px;
+	}
+	.Event-prev {
+		right: 40px;
+		top: 15px;
+	}
+}

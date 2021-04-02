@@ -1,0 +1,12 @@
+// Carrega os vendors
+@import 'helpers/variables';
+@import 'helpers/fonts';
+@import 'helpers/functions';
+@import 'helpers/bootstrap';
+@import 'helpers/owlcarousel';
+@import 'helpers/jqueryui';
+// Estilos gerais
+@import "common";
+// Carrega os components e os utilities
+@import "components/*";
+@import 'helpers/utilities';

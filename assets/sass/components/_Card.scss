@@ -1,0 +1,65 @@
+.Card {
+	padding-bottom: 5px;
+	a:hover {
+		.Card-title {
+			color: $color-6 !important;
+		}
+	}
+	&-date {
+		font-family: $roboto-slab;
+		font-size: 1.2em;
+		text-transform: uppercase;
+	}
+	&-category {
+		color: $color-7 !important;
+		font-family: $roboto-slab-bold;
+		font-size: 1.4em !important;
+		margin-bottom: 15px !important;
+		text-transform: uppercase !important;
+	}
+	&-thumb {
+		margin-bottom: 20px !important;
+	}
+	&-title {
+		color: $color-4 !important;
+		font-size: 2.0em !important;
+		font-family: $lato-bold;
+		margin-bottom: 10px !important;
+	}
+	&-description {
+		color: $color-10 !important;
+		font-family: $roboto-slab;
+		font-size: 1.6em !important;
+		font-weight: 400;
+		margin-bottom: 20px !important;
+	}
+
+	&--result {
+		padding: 30px 0;
+		border-bottom: 1px solid $color-4;
+
+		.Card-date, .Card-category, .Card-thumb, .Card-title, .Card-description {
+			margin: 8px 0 !important;
+		}
+	}
+
+	@media screen and (max-width: $screen-sm) {
+		&.Card--notice {
+			border-bottom: 1px solid $color-4;
+			margin: 25px 0;
+		}
+		&.Card--program {
+			border-bottom: 1px solid $color-4;
+			margin: 25px 0;
+			padding-bottom: 25px;
+		}
+	}
+
+	@media screen and (max-width: $screen-sm - 1) {
+		&.Card--post {
+			border-bottom: 1px solid $color-4;
+			margin: 25px 0;
+		}
+	}
+
+}

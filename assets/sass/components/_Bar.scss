@@ -1,0 +1,6 @@
+.Bar {
+	// Modificadores baseados nas variáveis de cor
+	&.Bar--color2 {
+		background: $color-2;
+	}
+}

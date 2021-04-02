@@ -1,0 +1,10 @@
+.Textarea {
+	border-color: $color-4;
+	font-family: $roboto-slab;
+	resize: none;
+
+	&:focus {
+		box-shadow: none;
+		border-color: $color-3;
+	}
+}

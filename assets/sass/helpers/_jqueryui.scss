@@ -1,0 +1,103 @@
+.ui-datepicker {
+	background-color: $color-12;
+	display: none;
+	border-right: 1px solid $color-3;
+	padding-bottom: 30px;
+	min-height: 420px;
+}
+
+.ui-datepicker a,
+.ui-datepicker a:hover {
+	text-decoration: none;
+}
+.ui-datepicker a:hover,
+.ui-datepicker td:hover a {
+	color: $color-12 !important;
+	-webkit-transition: color 0.1s ease-in-out;
+	-moz-transition: color 0.1s ease-in-out;
+	-o-transition: color 0.1s ease-in-out;
+	transition: color 0.1s ease-in-out;
+}
+.ui-datepicker .ui-datepicker-header, .Event-header {
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 2em;
+	color: $color-4;
+	font-family: $lato-bold;
+	padding: 20px 0;
+	position: relative;
+	border-bottom: 1px solid $color-3;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	font-family: "senar" !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	font-size: 2em;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	cursor: pointer;
+	position: absolute;
+
+	&:hover {
+		color: $color-5 !important;
+	}
+}
+.ui-datepicker .ui-datepicker-prev {
+	left: 40px;
+	top: 15px;
+}
+.ui-datepicker .ui-datepicker-next {
+	right: 40px;
+	top: 15px;
+}
+.ui-datepicker .ui-datepicker-prev:before {
+	content: "h";
+}
+.ui-datepicker .ui-datepicker-next:before {
+	content: "i";
+}
+.ui-datepicker .ui-icon {
+	display: none;
+}
+.ui-datepicker .ui-datepicker-calendar {
+	table-layout: fixed;
+	width: 75%;
+	margin: 0 auto;
+	font-size: 1.6em;
+}
+.ui-datepicker .ui-datepicker-calendar th,
+.ui-datepicker .ui-datepicker-calendar td {
+	text-align: center;
+	padding: 10px 0;
+}
+.ui-datepicker .ui-datepicker-calendar td {
+	border-radius: 4px;
+	-webkit-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+	-moz-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+	-o-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+	transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+.ui-datepicker .ui-datepicker-calendar td:hover {
+	background-color: $color-2;
+	cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-calendar td a {
+	text-decoration: none;
+	color: $color-10;
+	font-family: $roboto-slab-bold;
+}
+.ui-datepicker .ui-datepicker-current-day {
+	background-color: $color-4;
+}
+.ui-datepicker .ui-datepicker-current-day a {
+	color: $color-12 !important;
+}
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-unselectable:hover {
+	background-color: $color-12;
+	cursor: default;
+}

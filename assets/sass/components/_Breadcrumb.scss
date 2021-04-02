@@ -1,0 +1,13 @@
+.Breadcrumb {
+	font-size: 1.6em;
+	font-family: $roboto-slab-bold;
+	margin-bottom: 0;
+	a {
+		color: $color-12;
+		&.Icon {
+			&:before {
+				margin-right: 6px;
+			}
+		}
+	}
+}

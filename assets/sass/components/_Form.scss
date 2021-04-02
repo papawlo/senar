@@ -1,0 +1,12 @@
+.Form {
+	&-label {
+		font-family: $lato-bold;
+		color: $color-4;
+		text-transform: uppercase;
+		font-size: 1.2em;
+	}
+
+	.Input, .Select, .Textarea {
+		background-color: $color-8;
+	}
+}

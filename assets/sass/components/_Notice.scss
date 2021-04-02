@@ -1,0 +1,51 @@
+.Notice{
+	&-date{
+		display: block;
+		font-size: 1.2em!important;
+		margin: 0 0 7px!important;
+		text-transform: uppercase;
+	}
+	&-thumb {
+		margin-bottom: 25px;
+	}
+	&-author{
+		font-family: $roboto-slab-bold;
+		font-size: 1.6em;
+		border-right: 2px solid $color-10;
+		padding-right: 5px;
+		margin-right: 5px;
+	}
+	&-place{
+		font-size: 1.6em;
+	}
+
+	&-socialButton{
+		margin-right: 15px;
+		vertical-align: top;
+		display: inline-block;
+	}
+
+	&-social{
+		text-align: right;
+		vertical-align: top;
+	}
+}
+
+
+@media screen and (max-width: ($screen-xs)) {
+	.Notice{
+		&-socialButton{
+			margin-right: 0;
+		}
+
+		&-social{
+			margin-top: 10px;
+			margin-bottom: 10px;
+			text-align: left;
+		}
+
+		&-author, &-place{
+			font-size: 1.4em;
+		}
+	}
+}

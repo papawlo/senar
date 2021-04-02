@@ -1,0 +1,16 @@
+.Course {
+	padding-left: 105px;
+	&-tag {
+		margin-bottom: 5px!important;
+		position: relative;
+		&:before {
+			font-size: 1.4em;
+			left: -55px;
+			position: absolute;
+			top: 5px;
+		}
+	}
+	&-tagContent {
+		margin-top: 0!important;
+	}
+}

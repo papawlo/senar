@@ -1,0 +1,98 @@
+.Page {
+	margin-top: 65px;
+	&.Page--home {
+		margin-top: 20px;
+	}
+
+	&-titleBlog {
+		color: $color-4;
+		padding-top: 0px;
+		padding-bottom: 50px;
+		&:before {
+			font-size: 3em;
+			vertical-align: middle;
+			margin-right: 20px;
+			color: $color-3;
+		}
+	}
+
+	&-content {
+		font-family: $roboto-slab;
+		h1, h2, h3, h4, h5, h6 {
+			font-family: $lato;
+			color: $color-5;
+			margin-bottom: 25px;
+		}
+		h2 {
+			font-size: 3.6em;
+			&:before, &:after {
+				vertical-align: top;
+			}
+			&:before {
+				margin-right: 10px;
+			}
+		}
+		h3 {
+			font-size: 3.0em;
+		}
+		h4 {
+			font-size: 2.4em;
+		}
+		h5 {
+			font-size: 1.8em;
+		}
+		h6 {
+			font-size: 1.6em;
+			font-weight: 900;
+		}
+		p {
+			margin: 25px 0;
+		}
+		ul, ol {
+			font-size: 1.6em;
+			margin: 25px 0;
+			list-style-position: inside;
+			list-style-type: disc;
+		}
+	}
+}
+
+@media screen and (max-width: $screen-sm) {
+	.Page {
+		margin-top: 35px;
+		&.Page--home {
+			margin-top: 0;
+		}
+
+		&-titleBlog {
+			color: $color-4;
+			padding-bottom: 30px;
+		}
+
+		&-content {
+			h2 {
+				font-size: 3.0em;
+			}
+			h3 {
+				font-size: 2.4em;
+			}
+			h4 {
+				font-size: 1.8em;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $screen-xs) {
+	.Page {
+		&-content {
+			h2 {
+				&:before {
+					height: 40px;
+					display: block;
+					float: left;
+				}
+			}
+		}
+	}
+}

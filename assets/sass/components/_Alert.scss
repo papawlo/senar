@@ -1,0 +1,19 @@
+.Alert {
+	font-family: $lato-bold;
+	padding: 15px 0;
+	font-size: 1.4em;
+	display: block;
+
+	&.Icon {
+		&:before {
+			margin-right: 10px;
+		}
+	}
+
+	&.Alert--success {
+		color: $color-4;
+	}
+	&.Alert--danger {
+		color: $color-16;
+	}
+}

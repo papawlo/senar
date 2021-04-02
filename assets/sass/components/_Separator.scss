@@ -1,0 +1,8 @@
+.Separator {
+	margin: 35px 0;
+	border-color: $color-2;
+
+	&.Separator--dark {
+		border-color: $color-4;
+	}
+}

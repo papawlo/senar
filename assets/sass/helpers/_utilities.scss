@@ -1,0 +1,55 @@
+// Utilitários
+.u {
+	// The parent element must be a height propert
+	&-valign {
+		@include valign();
+	}
+	&-verticalMargin {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	&-vMarginTop {
+		margin-top: 50px;
+	}
+	&-vMarginBottom {
+		margin-bottom: 50px;
+	}
+	&-textLarge {
+		font-size: 10em;
+	}
+}
+
+// phone
+@media screen and (max-width: ($screen-xs)) {
+	.u-xs {
+		&-fitSize {
+			max-width: 100%!important;
+			width: 100%!important;
+		}
+		&-noPadding {
+			padding: 0;
+		}
+	}
+}
+
+// phone
+@media screen and (min-width: ($screen-sm)) {
+	.u-sm-hMarginLeft {
+		margin-left: 10px;
+	}
+	.u-sm-noPaddingRight {
+		padding-right: 0 !important;
+	}
+	.u-sm-noPaddingLeft {
+		padding-left: 0 !important;
+	}
+}
+
+// large screen
+@media screen and (min-width: ($grid-float-breakpoint)) {
+	.u-lg {
+		&-valign {
+			@include valign();
+		}
+	}
+}

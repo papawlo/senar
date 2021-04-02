@@ -1,0 +1,28 @@
+.ListMenu {
+	display: block;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	padding: 15px;
+	margin: 30px 0;
+	border-top: 1px solid $color-4;
+	border-bottom: 1px solid $color-4;
+	.ListMenu-link {
+		text-transform: uppercase;
+		font-family: $lato-bold;
+		font-size: 1.2em;
+		color: $color-10;
+
+		&:hover {
+			color: $color-4;
+		}
+	}
+}
+
+@media screen and (max-width: $screen-xs) {
+	.ListMenu {
+		padding-left: 0;
+		padding-right: 0;
+		text-align: left;
+	}
+}

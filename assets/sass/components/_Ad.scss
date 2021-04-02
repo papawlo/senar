@@ -1,0 +1,22 @@
+.Ad {
+	color: $color-12;
+	height: 260px;
+	&-container {
+		background-position: center center;
+		background-size: cover;
+		height: 100%;
+		padding: 25px;
+	}
+	&-title {
+		font-size: 2.2em;
+		font-weight: 900;
+		margin-bottom: 15px;
+		text-transform: uppercase;
+	}
+	&-description {
+		font-family: $roboto-slab-bold;
+		font-size: 1.2em;
+		font-weight: 700;
+		margin-bottom: 15px;
+	}
+}

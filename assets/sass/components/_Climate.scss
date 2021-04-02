@@ -1,0 +1,75 @@
+.Climate {
+	text-align: center;
+	&-container {
+		background: $color-11;
+		border-radius: 4px;
+		color: $color-12;
+		overflow: hidden;
+	}
+	&-date {
+		font-family: $roboto-slab-bold;
+		font-size: 1.4em;
+		font-weight: 400;
+		padding-top: 20px;
+		margin-bottom: 4px;
+		text-transform: uppercase;
+	}
+	&-location {
+		font-size: 1.7em;
+		font-weight: 900;
+		margin-bottom: 15px;
+		text-transform: uppercase;
+	}
+	&-temp {
+		font-family: $roboto-slab;
+		font-size: 4.4em;
+		font-weight: 500;
+		margin-bottom: 15px;
+		&:before {
+			margin-right: 15px;
+			vertical-align: bottom;
+		}
+		&Min {
+			display: inline-block;
+			font-size: 2.7em;
+			font-weight: 700;
+			line-height: .75em;
+			margin-left: 35px;
+			position: relative;
+			&:before {
+				color: $color-11;
+				font-size: 1.3em;
+				position: absolute;
+				left: -45px;
+				top: 0;
+			}
+		}
+		&Max {
+			display: inline-block;
+			font-size: 2.7em;
+			font-weight: 700;
+			line-height: .75em;
+			margin-left: 35px;
+			margin-right: 35px;
+			position: relative;
+			&:before {
+				color: $color-4;
+				font-size: 1.3em;
+				position: absolute;
+				left: -45px;
+				top: 0;
+			}
+		}
+	}
+	&-footer {
+		background: $color-8;
+		color: $color-10;
+		text-transform: uppercase;
+		padding: 15px 0;
+		span {
+			display: block;
+			font-size: 15px;
+		}
+	}
+}
+

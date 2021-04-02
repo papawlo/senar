@@ -1,0 +1,158 @@
+.Footer {
+	margin-top: 70px;
+	background: $color-2;
+
+	&.Footer--blog {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		color: $color-12;
+		font-size: 2.2em;
+		font-family: $lato-bold;
+		text-transform: uppercase;
+	}
+
+	&-restrictArea, &-social, &-siteMap {
+		padding-top: 80px;
+		padding-bottom: 60px;
+	}
+	&-restrictArea {
+		background: $color-1;
+	}
+	&-title {
+		color: $color-12;
+		font-size: 2.2em;
+		text-transform: uppercase;
+		font-family: $lato-bold;
+
+		&.Footer-title--icon{
+			&:before{
+				margin-right: 10px;
+				font-size: 2em;
+				vertical-align: bottom;
+			}
+		}
+		&.Footer-title--negativeMargin{
+			margin-top: -20px;
+		}
+
+		&.Footer-title--iconBrazil{
+			position: relative;
+			margin-left: 55px;
+			&:before{
+				position: absolute;
+				left: -55px;
+			}
+		}
+
+		&.Footer-title--border{
+			border-bottom: 1px solid $color-5;
+			margin-bottom: 25px;
+			padding-bottom: 20px;
+		}
+	}
+	&-address, &-phone{
+		position: relative;
+		color: $color-12;
+		font-size: 1.6em;
+		font-family: $roboto-slab-bold;
+		margin-left: 45px;
+		margin-top: 20px;
+
+		&:before{
+			position: absolute;
+			vertical-align: middle;
+			font-size: 2.5em;
+		}
+	}
+
+	&-address{
+		&:before{
+			left: -45px;
+		}
+	}
+
+	&-phone{
+		padding-top: 10px;
+		&:before{
+			top: 0px;
+			left: -45px;
+		}
+	}
+
+	&-link{
+		color: $color-12;
+		font-family: $roboto-slab-bold;
+		font-size: 1.6em;
+
+		&.Footer-link--transparency{
+			margin-top: 10px;
+			margin-left: 55px;
+			margin-right: 45px;
+			display: block;
+		}
+	}
+
+	&-mapList{
+		margin-top: 20px;
+	}
+	&-mapListItem{
+		margin-bottom: 15px;
+	}
+}
+
+@media screen and (min-width: $grid-float-breakpoint) {
+	.Footer {
+		&-restrictArea {
+			padding-right: 25px;
+			padding-left: 25px;
+		}
+	}
+}
+
+@media screen and (max-width: $grid-float-breakpoint-max) {
+	.Footer{
+		&-restrictArea, &-social, &-siteMap {
+			padding-top: 20px;
+			padding-bottom: 40px;
+		}
+		&-social {
+			padding-top: 60px;
+		}
+	}
+}
+
+@media screen and (min-width: $screen-sm) and (max-width: $grid-float-breakpoint-max) {
+	.Footer{
+		&-restrictArea{
+			padding-top: 90px;
+			height: 630px;
+		}
+
+		&-siteMap{
+			margin-top: -200px;
+		}
+
+		&-mapListItem{
+			display: inline-block;
+			width: 49%;
+			vertical-align: top;
+			margin-bottom: 5px;
+		}
+
+		&-title{
+			font-size: 2em;
+
+			&.Footer-title--border{
+				border-bottom: none;
+			}
+		}
+
+		&-link{
+			font-size: 1.2em;
+			&.Footer-link--transparency{
+				font-size: 1.6em;
+				margin-right: 0px;
+			}
+		}
+	}
+}

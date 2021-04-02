@@ -1,0 +1,62 @@
+.NavLink {
+	&.NavLink--menu {
+		font-family: $lato-bold;
+		text-transform: uppercase;
+		font-size: 1.2em;
+	}
+	&.NavLink--dropdown {
+		color: $color-12;
+		font-family: $roboto-slab-bold;
+		text-transform: uppercase;
+		font-size: 1.4em;
+		padding: 8px 0;
+		display: block;
+		&:hover {
+			color: $color-5;
+		}
+	}
+	&.NavLink--search {
+		background: transparent;
+		border: none;
+		color: $color-12;
+		font-size: 4.0em;
+		padding: 30px 20px;
+	}
+}
+
+@media screen and (max-width: $grid-float-breakpoint) {
+	.NavLink {
+		&.NavLink--search {
+			font-size: 3.5em;
+			padding: 0;
+		}
+	}
+}
+
+@media screen and (min-width: $grid-float-breakpoint) {
+	.navbar-nav {
+		li.active, li.open, li:hover {
+			.NavLink--menu {
+				&:before {
+					overflow: hidden;
+					content: '';
+					height: 5px;
+					min-width: 100%;
+					position: absolute;
+					top: 0;
+					display: block;
+					background: $color-3;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $grid-float-breakpoint-max) {
+	.NavLink {
+		&.NavLink--menu {
+			font-size: 1.4em;
+		}
+	}
+}
+

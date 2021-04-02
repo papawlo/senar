@@ -1,0 +1,39 @@
+.AvatarList {
+	font-size: 1.0em!important;
+	margin: 0!important;
+	list-style-position: inside!important;
+	list-style-type: none!important;
+	text-align: center;
+	&-item {
+		margin: 20px 0;
+		display: block;
+	}
+	&-thumb {
+		width: 150px;
+		height: 150px;
+		margin-bottom: 15px;
+	}
+	&-title {
+		font-size: 1.8em!important;
+		margin: 0 0 5px!important;
+	}
+	&-description {
+		font-family: $roboto-slab-bold;
+		font-size: 1.4em;
+		font-weight: 400;
+		margin: 0 0 5px!important;
+	}
+}
+
+@media screen and (max-width: $screen-xs) {
+	.AvatarList {
+		&-item {
+			height: 220px;
+			display: block;
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+}

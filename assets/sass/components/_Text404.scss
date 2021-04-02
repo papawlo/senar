@@ -1,0 +1,21 @@
+.Text404 {
+	&-largeParagraph {
+		font-size: 10em;
+		text-align: center;
+		font-family: $roboto-slab-bold;
+		color: $color-5;
+	}
+	&-underlineParagraph {
+		text-decoration: underline;
+		text-transform: uppercase;
+		font-family: $roboto-slab-bold;
+		font-size: 1.6em;
+		color: $color-5;
+	}
+	&-infoText {
+		font-family: $roboto-slab-bold;
+		font-size: 1.4em;
+		color: $color-5;
+	}
+}
+

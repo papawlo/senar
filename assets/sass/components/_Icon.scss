@@ -1,0 +1,414 @@
+[class^="Icon--"]:before,
+[class*=" Icon--"]:before,
+[class^="Icon--"]:after,
+[class*=" Icon--"]:after  {
+	font-family: "senar" !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.Icon {
+	&.Icon--tractor {
+		&Before {
+			&:before {
+				content: "a";
+			}
+		}
+		&After {
+			&:after {
+				content: "a";
+			}
+		}
+	}
+	&.Icon--logo {
+		&Before {
+			&:before {
+				content: "b";
+			}
+		}
+		&After {
+			&:after {
+				content: "b";
+			}
+		}
+	}
+	&.Icon--armorial {
+		&Before {
+			&:before {
+				content: "c";
+			}
+		}
+		&After {
+			&:after {
+				content: "c";
+			}
+		}
+	}
+	&.Icon--arrow-left {
+		&Before {
+			&:before {
+				content: "h";
+			}
+		}
+		&After {
+			&:after {
+				content: "h";
+			}
+		}
+	}
+	&.Icon--arrow-right {
+		&Before {
+			&:before {
+				content: "i";
+			}
+		}
+		&After {
+			&:after {
+				content: "i";
+			}
+		}
+	}
+	&.Icon--play {
+		&Before {
+			&:before {
+				content: "j";
+			}
+		}
+		&After {
+			&:after {
+				content: "j";
+			}
+		}
+	}
+	&.Icon--cancel {
+		&Before {
+			&:before {
+				content: "k";
+			}
+		}
+		&After {
+			&:after {
+				content: "k";
+			}
+		}
+	}
+	&.Icon--clock {
+		&Before {
+			&:before {
+				content: "l";
+			}
+		}
+		&After {
+			&:after {
+				content: "l";
+			}
+		}
+	}
+	&.Icon--search {
+		&Before {
+			&:before {
+				content: "m";
+			}
+		}
+		&After {
+			&:after {
+				content: "m";
+			}
+		}
+	}
+	&.Icon--email {
+		&Before {
+			&:before {
+				content: "n";
+			}
+		}
+		&After {
+			&:after {
+				content: "n";
+			}
+		}
+	}
+	&.Icon--home {
+		&Before {
+			&:before {
+				content: "o";
+			}
+		}
+		&After {
+			&:after {
+				content: "o";
+			}
+		}
+	}
+	&.Icon--users {
+		&Before {
+			&:before {
+				content: "p";
+			}
+		}
+		&After {
+			&:after {
+				content: "p";
+			}
+		}
+	}
+	&.Icon--direction {
+		&Before {
+			&:before {
+				content: "q";
+			}
+		}
+		&After {
+			&:after {
+				content: "q";
+			}
+		}
+	}
+	&.Icon--paper {
+		&Before {
+			&:before {
+				content: "r";
+			}
+		}
+		&After {
+			&:after {
+				content: "r";
+			}
+		}
+	}
+	&.Icon--marker {
+		&Before {
+			&:before {
+				content: "s";
+			}
+		}
+		&After {
+			&:after {
+				content: "s";
+			}
+		}
+	}
+	&.Icon--paper-edit {
+		&Before {
+			&:before {
+				content: "t";
+			}
+		}
+		&After {
+			&:after {
+				content: "t";
+			}
+		}
+	}
+	&.Icon--docs {
+		&Before {
+			&:before {
+				content: "u";
+			}
+		}
+		&After {
+			&:after {
+				content: "u";
+			}
+		}
+	}
+	&.Icon--money {
+		&Before {
+			&:before {
+				content: "v";
+			}
+		}
+		&After {
+			&:after {
+				content: "v";
+			}
+		}
+	}
+	&.Icon--phone {
+		&Before {
+			&:before {
+				content: "w";
+			}
+		}
+		&After {
+			&:after {
+				content: "w";
+			}
+		}
+	}
+	&.Icon--calendar {
+		&Before {
+			&:before {
+				content: "x";
+			}
+		}
+		&After {
+			&:after {
+				content: "x";
+			}
+		}
+	}
+	&.Icon--brazil {
+		&Before {
+			&:before {
+				content: "y";
+			}
+		}
+		&After {
+			&:after {
+				content: "y";
+			}
+		}
+	}
+	&.Icon--right-open {
+		&Before {
+			&:before {
+				content: "d";
+			}
+		}
+		&After {
+			&:after {
+				content: "d";
+			}
+		}
+	}
+	&.Icon--left-open {
+		&Before {
+			&:before {
+				content: "e";
+			}
+		}
+		&After {
+			&:after {
+				content: "e";
+			}
+		}
+	}
+	&.Icon--down-open {
+		&Before {
+			&:before {
+				content: "f";
+			}
+		}
+		&After {
+			&:after {
+				content: "f";
+			}
+		}
+	}
+	&.Icon--up-open {
+		&Before {
+			&:before {
+				content: "g";
+			}
+		}
+		&After {
+			&:after {
+				content: "g";
+			}
+		}
+	}
+	&.Icon--close {
+		&Before {
+			&:before {
+				content: "z";
+			}
+		}
+		&After {
+			&:after {
+				content: "z";
+			}
+		}
+	}
+	&.Icon--menu {
+		&Before {
+			&:before {
+				content: "A";
+			}
+		}
+		&After {
+			&:after {
+				content: "A";
+			}
+		}
+	}
+	&.Icon--check {
+		&Before {
+			&:before {
+				content: "B";
+			}
+		}
+		&After {
+			&:after {
+				content: "B";
+			}
+		}
+	}
+	&.Icon--warning {
+		&Before {
+			&:before {
+				content: "C";
+			}
+		}
+		&After {
+			&:after {
+				content: "C";
+			}
+		}
+	}
+	&.Icon--plus {
+		&Before {
+			&:before {
+				content: "D";
+			}
+		}
+		&After {
+			&:after {
+				content: "D";
+			}
+		}
+	}
+	&.Icon--minus {
+		&Before {
+			&:before {
+				content: "E";
+			}
+		}
+		&After {
+			&:after {
+				content: "E";
+			}
+		}
+	}
+	&.Icon--arrow-down {
+		&Before {
+			&:before {
+				content: "F";
+			}
+		}
+		&After {
+			&:after {
+				content: "F";
+			}
+		}
+	}
+	&.Icon--arrow-up {
+		&Before {
+			&:before {
+				content: "G";
+			}
+		}
+		&After {
+			&:after {
+				content: "G";
+			}
+		}
+	}
+}
+

@@ -1,0 +1,22 @@
+.LoginForm{
+	margin-bottom: 40px;
+	&-label{
+		color: $color-5;
+		font-family: $lato-bold;
+		font-size: 1.4em;
+		text-transform: uppercase;
+	}
+
+	&-forgot{
+		font-family: $lato-bold;
+		font-size: 1.2em;
+		color: $color-5;
+		text-transform: uppercase;
+		padding-top: 15px;
+		padding-right: 25px;
+
+		&:hover{
+			color: $color-12;
+		}
+	}
+}

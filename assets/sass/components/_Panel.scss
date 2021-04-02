@@ -1,0 +1,38 @@
+.Panel {
+	border: 0;
+	.Panel-title {
+		text-transform: uppercase;
+		font-size: 2em;
+		font-family: $lato-bold;
+		&:before {
+			margin-right: 10px;
+			font-size: 2em;
+			vertical-align: middle;
+		}
+	}
+}
+
+@media screen and (max-width: $screen-sm) {
+	.Panel {
+		.panel-body {
+			padding: 30px;
+			.btn {
+				width: 100%;
+				display: block;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $screen-xs) {
+	.Panel {
+		.Panel-title {
+			overflow: hidden;
+			&:before {
+				height: 40px;
+				display: block;
+				float: left;
+			}
+		}
+	}
+}

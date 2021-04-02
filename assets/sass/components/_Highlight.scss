@@ -1,0 +1,41 @@
+.Highlight {
+	color: $color-12;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	width: 100%;
+
+	&.Highlight--fHeight {
+		height: 300px;
+	}
+	&-title {
+		font-size: 4.6em;
+		font-weight: 900;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+		&.Highlight-title--page {
+			font-size: 8.0em;
+			font-weight: 400;
+			text-transform: none;
+		}
+	}
+	&-description {
+		font-family: $roboto-slab-bold;
+		font-size: 2.3em;
+		font-weight: 700;
+		margin-bottom: 35px;
+	}
+}
+
+@media screen and (max-width: $screen-sm) {
+	.Highlight {
+		&-title {
+			font-size: 3.6em;
+			&.Highlight-title--page {
+				font-size: 5.0em;
+			}
+		}
+	}
+}

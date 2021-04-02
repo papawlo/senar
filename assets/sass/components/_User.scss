@@ -1,0 +1,17 @@
+.User {
+	margin-top: 35px;
+
+	&:before {
+		margin: 0 15px;
+		font-size: 2em;
+		vertical-align: middle;
+		line-height: 0;
+	}
+
+	&-close {
+		text-decoration: underline;
+		&:hover {
+			color: $color-1;
+		}
+	}
+}

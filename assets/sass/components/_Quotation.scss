@@ -1,0 +1,57 @@
+.Quotation {
+	&-container {
+		background: $color-8;
+	}
+	&-header {
+		background: $color-3;
+		border-bottom: 1px solid $color-4;
+		color: $color-12;
+		padding: 25px;
+	}
+	&-title {
+		font-size: 2.0em;
+		font-weight: 900;
+		text-transform: uppercase;
+	}
+	&-date {
+		font-family: $roboto-slab-bold;
+		font-size: 1.2em;
+		font-weight: 700;
+		margin-top: 5px;
+	}
+	&-table {
+		color: $color-10;
+		font-family: $roboto-slab-bold;
+		font-size: 1.4em;
+		font-weight: 700;
+		margin-bottom: 0;
+		text-transform: uppercase;
+		caption {
+			color: $color-9;
+			font-size: 1em;
+			font-weight: 700;
+			padding: 15px 25px 2px;
+		}
+		th:first-child, td:first-child {
+			padding-left: 25px;
+		}
+		th {
+			border-bottom: 1px solid $color-4!important;
+		}
+		tr:last-child td {
+			border-bottom: 1px solid #ddd;
+		}
+	}
+	&-source {
+		color: $color-10;
+		font-family: $roboto-slab-bold;
+		font-size: 1.2em;
+		font-weight: 700;
+		padding: 20px 0;
+		text-align: center;
+		a {
+			color: $color-10;
+			text-decoration: underline;
+		}
+	}
+}

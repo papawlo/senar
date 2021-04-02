@@ -1,0 +1,42 @@
+.Brand {
+	display: block;
+	&.Brand--senar {
+		padding: 20px 15px 24px;
+		max-width: 85px;
+		background-color: $color-12;
+	}
+	&.Brand--faepa {
+		padding: 30px 15px;
+		max-width: 70px;
+		background-color: $color-1;
+	}
+}
+
+@media screen and (min-width: ($grid-float-breakpoint)) {
+	.Brand {
+		&.Brand--senar {
+			float: left;
+			position: relative;
+			z-index: 9999;
+			margin-bottom: -14px;
+		}
+
+		&.Brand--faepa {
+			float: right;
+		}
+	}
+}
+
+@media screen and (max-width: $grid-float-breakpoint-max) {
+	.Brand {
+		height: $navbar-height;
+		&.Brand--senar {
+			position: relative;
+			float: right;
+			margin-right: 15px;
+		}
+		&.Brand--faepa {
+			float: right;
+		}
+	}
+}

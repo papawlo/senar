@@ -1,0 +1,43 @@
+.Blockquote{
+	font-family: $lato-italic;
+	font-size: 2.2em;
+	margin-bottom: 35px;
+	quotes: "“" "”" "‘" "’";
+	position: relative;
+	padding: 30px 90px;
+	color: $color-5;
+
+	&:before, &:after{
+		position: absolute;
+		font-size: 12em;
+	}
+
+	&:before{
+		 content: open-quote;
+		 top: -0.3em;
+		 left: -0.1em;
+	}
+
+	&:after{
+		 content: close-quote;
+		 bottom: -0.8em;
+		 right: 0;
+	}
+
+	&-author{
+		font-family: $roboto-slab-bold;
+		font-size: .6em;
+		display: block;
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: $screen-xs) {
+	.Blockquote{
+		padding: 30px;
+		&:before, &:after{
+			font-size: 4em;
+		}
+	}
+}
+

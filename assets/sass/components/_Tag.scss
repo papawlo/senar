@@ -1,0 +1,25 @@
+.Tag {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	.Tag-title {
+		font-family: $lato-bold;
+		text-transform: uppercase;
+		color: $color-4;
+		padding-bottom: 10px;
+		border-bottom: 1px solid $color-4;
+	}
+	.Tag-link {
+		border: 1px solid $color-4;
+		color: $color-10;
+		font-family: $lato-bold;
+		font-size: 1em;
+		padding: 10px;
+		margin: 10px 0;
+		text-transform: uppercase;
+		display: block;
+		&:hover {
+			color: $color-12;
+			background: $color-10;
+		}
+	}
+}
